@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Education</title>
+  <style>
+    /* CSS styles can be added here */
+
+
+
+    .container{
+        text-align: right;
+    }
+    .large-button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f5f5f5;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Education Platform</h1>
+    <div>
+      <div class = "container">
+          <button class="large-button" type="submit"  align-items="center" padding="1em" justify-content="center" height="80px">LOGIN</button>
+    </div>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Welcome to Our Online Education Platform!</h2>
+    <!-- <button type="ogin">Login</button>
+    <button type="submit">sighn up</button>
+    <button type="submit">dashboards</button>
+    <button class="large-button" type="submit">Loginnn</button> -->
+    <!-- .container{
+        text-align: right;
+    }
+    .large-button {
+        padding: 10 px 20px;
+        font-size: 16 px;
+    }
+ -->
+
+
+
+
+    <p>Start your journey of learning with us. We offer a wide range of courses to help you achieve your goals.</p>
+    <p>Explore our courses, enroll today, and embark on a learning adventure!</p>
+
+
+
+
+    <!-- <img src="hack1.jpg" alt="pic" width="w" height="height_in_pixels"> -->
+
+    <img src="hack1.jpg" alt="biharpic" width="1400" height="900">
+
+
+
+
+
+    <form action="submit_page.php" method="post">
+      <!-- Form fields go here -->
+      <label for="username">FIRST NAME:</label>
+      <input type="text" id="username" name="FIRST NAME" required> <br>
+
+
+      <label for="username">LAST NAME:</label>
+      <input type="text" id="LAST NAME" name="LAST NAME" required> <br>
+
+
+      <label for="username">CONTACT NO.:</label>
+      <input type="text" id="GMAIL" name="GMAIL" required> <br>
+
+
+      <label for="username">GMAIL:</label>
+      <input type="text" id="CONTACT NUMBER" name="CONTACT NUMBER" required> <br>
+
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required> <br>
+  
+      <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+  <div>
+    <div class = "container">
+        <button class="large-button" type="submit"  align-items="center" padding="1em" justify-content="center" height="80px">LOGIN</button>
+  </div>
+
+  <footer>
+  </footer>
+</body>
+</html>
